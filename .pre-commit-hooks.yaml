@@ -1,0 +1,6 @@
+-   id: black-docker
+    name: black (via docker)
+    description: flake8, but provided by docker
+    entry: black
+    language: docker
+    files: \.py$
